@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assembly Line Chaos — Concept Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#">Assembly Line Chaos <span>concept art</span></a>
+  </header>
+  <main id="app" aria-live="polite"></main>
+
+  <dialog id="lightbox" aria-label="Render">
+    <div class="lb-stage">
+      <button class="lb-nav lb-prev" aria-label="Previous render">‹</button>
+      <img id="lb-img" alt="">
+      <button class="lb-nav lb-next" aria-label="Next render">›</button>
+    </div>
+    <aside class="lb-info">
+      <div class="lb-head">
+        <h2 id="lb-title"></h2>
+        <button class="lb-close" aria-label="Close">×</button>
+      </div>
+      <p id="lb-meta" class="muted"></p>
+      <div id="lb-prompt"></div>
+      <a id="lb-download" class="button" download>Download</a>
+    </aside>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
