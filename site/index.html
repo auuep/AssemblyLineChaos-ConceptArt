@@ -12,22 +12,15 @@
   </header>
   <main id="app" aria-live="polite"></main>
 
-  <dialog id="lightbox" aria-label="Render">
-    <div class="lb-stage">
-      <button class="lb-nav lb-prev" aria-label="Previous render">‹</button>
-      <img id="lb-img" alt="">
-      <button class="lb-nav lb-next" aria-label="Next render">›</button>
+  <aside id="drawer" aria-label="Prompt" aria-hidden="true">
+    <div class="drawer-head">
+      <h2 id="dr-title"></h2>
+      <button class="dr-close" aria-label="Close">×</button>
     </div>
-    <aside class="lb-info">
-      <div class="lb-head">
-        <h2 id="lb-title"></h2>
-        <button class="lb-close" aria-label="Close">×</button>
-      </div>
-      <p id="lb-meta" class="muted"></p>
-      <div id="lb-prompt"></div>
-      <a id="lb-download" class="button" download>Download</a>
-    </aside>
-  </dialog>
+    <p id="dr-meta" class="muted"></p>
+    <pre id="dr-text"></pre>
+    <div id="dr-actions"></div>
+  </aside>
 
   <script src="app.js"></script>
 </body>
