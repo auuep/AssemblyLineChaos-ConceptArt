@@ -4,6 +4,8 @@ Style explorations for [Assembly Line Chaos](https://github.com/Donkie/AssemblyL
 directions, Krea 2 prompts, and the renders made from them, with a small web page for browsing
 them. None of it is an approved art decision for the game.
 
+**Browse:** https://auuep.github.io/AssemblyLineChaos-ConceptArt/
+
 Prompts are written with the game repo's `krea-concept-prompts` skill, which reads the game's
 style-neutral description (`Concept/baseline.md` in the game repo) and saves its output here.
 
