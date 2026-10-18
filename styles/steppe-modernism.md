@@ -23,3 +23,4 @@ still promise freedom over an empty floor.
 ## Used by
 
 - [2026-10-18-key-moments-steppe-modernism](../prompts/2026-10-18-key-moments-steppe-modernism.md)
+- [2026-10-18-prototype-cars-steppe-modernism](../prompts/2026-10-18-prototype-cars-steppe-modernism.md)
